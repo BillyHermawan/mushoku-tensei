@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mushoku Tensei Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mushoku Tensei: Isekai Ittara Honki Dasu</h1>
+        <nav>
+            <a href="#bio">Biografi</a>
+            <a href="#info">Substansi</a>
+            <a href="#quiz">Quiz</a>
+            <a href="#game">Mini Game</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="bio" class="card">
+            <h2>Biografi: Rudeus Greyrat</h2>
+            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Rudeus" alt="Rudeus" class="main-img">
+            <p>Rudeus adalah reinkarnasi dari seorang pria pengangguran berusia 34 tahun yang memulai hidup baru di dunia sihir dengan tekad untuk hidup serius.</p>
+        </section>
+
+        <section id="info" class="card">
+            <h2>Substansi Dunia & Sihir</h2>
+            <ul>
+                <li><strong>Sistem Sihir:</strong> Menggunakan Mana untuk memanipulasi elemen tanpa mantra (Chantless Magic).</li>
+                <li><strong>Benua:</strong> Terbagi menjadi Benua Tengah, Benua Iblis, dan Benua Milis.</li>
+            </ul>
+        </section>
+
+        <section id="quiz" class="card">
+            <h2>Uji Pengetahuan (Quiz 10 Pertanyaan)</h2>
+            <div id="quiz-container">
+                <p id="question">Pertanyaan akan muncul di sini...</p>
+                <div id="answer-buttons"></div>
+            </div>
+        </section>
+
+        <section id="game" class="card">
+            <h2>Mini Game: Mana Collector</h2>
+            <p>Klik bola Mana secepat mungkin!</p>
+            <div id="game-board">
+                <div id="mana-ball"></div>
+            </div>
+            <p>Skor: <span id="score">0</span></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
