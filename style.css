@@ -1,0 +1,72 @@
+body {
+    background-color: #f4ece1; /* Warna kertas lama */
+    color: #3e2723;
+    font-family: 'Georgia', serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #5d4037;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #8d6e63;
+}
+
+nav a {
+    color: #d7ccc8;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border-left: 10px solid #2e7d32; /* Hijau Jubah Rudeus */
+}
+
+.main-img {
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Quiz Style */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background: #8d6e63;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover { background: #5d4037; }
+
+/* Game Style */
+#game-board {
+    height: 200px;
+    border: 2px dashed #5d4037;
+    position: relative;
+    overflow: hidden;
+}
+
+#mana-ball {
+    width: 30px;
+    height: 30px;
+    background: #4fc3f7;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    box-shadow: 0 0 10px #4fc3f7;
+}
